@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e503a17d4ac724cc89a622b0f398128f, type: 3}
+  m_Name: PlayerConfigData
+  m_EditorClassIdentifier: 
+  mouseLookSensitivity: 0.5
+  cameraDistance: 5
+  cameraDownMax: 80
+  cameraUpMax: 80
+  moveAcc: 10
+  moveDec: 5
+  moveSpeed: 3
+  rotateSpeed: 10
+  jumpForce: 4
+  airMoveMultiply: 0.07
+  landingDeceMultiply: 0.7
+  grabingDeceMultiply: 0.85
+  maxGrabingTime: 1.5
+  grabInterval: 1
+  gorillaAttackingDeceMultiply: 0.1
+  gorillaAttackPower: 15
+  gorillaPunchKnockBack: 0.5
